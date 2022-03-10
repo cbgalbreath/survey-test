@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Page Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">DM Survey</h1>
+<p id="description">Please provide feedback on your DM's session tonight.</p>
+
+<form id="survey-form">
+  <label for="name" id="name-label">Name
+  <input type="text" id="name" placeholder="Name" required>
+    </label>
+  <label for="email" id="email-label" required>E-mail Adress
+  <input type="email" id="email" placeholder="E-mail">
+  </label>
+  <label for="number" id="number-label">Age
+  <input type="number" min="13" max="80" id="number" placeholder="Age">
+    </label>
+  <label for="dropdown">DM Name
+  <select id="dropdown">
+  <option value="griffin">Griffin</option>
+  <option value="justin">Justin</option>
+  <option value="travis">Travis</option>
+  <option value="clint">Clint</option>
+  </select>
+    </label>
+  <div id="radio">
+    <label for="story">Storytelling 
+  <label for="1">
+    Horrible<input type="radio" name="story" id="1">
+  </label>
+    <input type="radio" name="story" id="2">
+    <input type="radio" name="story" id="3">
+    <input type="radio" name="story" id="4">
+  <label for="5">
+    <input type="radio" name="story" id="5">Excellent
+  </label>
+      </label>
+  </div>
+  <div id="radio">
+    <label for="session">Session Design 
+    <label for="1">
+    Horrible<input type="radio" name="session" id="1">
+  </label>
+    <input type="radio" name="session" id="2">
+    <input type="radio" name="session" id="3">
+    <input type="radio" name="session" id="4">
+  <label for="5">
+    <input type="radio" name="session" id="5">Excellent
+  </label>
+      </label>
+  </div>
+  <div id="radio">
+    <label for="enemy">Enemy Challenge 
+    <label for="1">
+    Horrible<input type="radio" name="enemy" id="1">
+  </label>
+    <input type="radio" name="enemy" id="2">
+    <input type="radio" name="enemy" id="3">
+    <input type="radio" name="enemy" id="4">
+  <label for="5">
+    <input type="radio" name="enemy" id="5">Excellent
+  </label>
+    </label>
+  </div>
+  <div id="radio">
+    <label for="puzzle">Puzzle Challenge 
+    <label for="1">
+    Horrible<input type="radio" name="puzzle" id="1">
+  </label>
+    <input type="radio" name="puzzle" id="2">
+    <input type="radio" name="puzzle" id="3">
+    <input type="radio" name="puzzle" id="4">
+  <label for="5">
+    <input type="radio" name="puzzle" id="5">Excellent
+  </label>
+      </label>
+  </div>
+  <label for="games">What games have you played?</label>
+  <label for="dnd">
+    <input type="checkbox" name="games" id="dnd" value="dnd">Dungeons & Dragons
+  </label>
+  <label for="pathfinder">
+    <input type="checkbox" name="games" id="pathfinder" value="pathfinder">Pathfinder
+  </label>
+    <label for="starfinder">
+    <input type="checkbox" name="games" id="starfinder" value="pathfinder">Starfinder
+  </label>
+    <label for="fate">
+    <input type="checkbox" name="games" id="fate" value="fate">Fate (all variants)
+  </label>
+    <label for="wod">
+    <input type="checkbox" name="games" id="wod" value="wod">World of Darkness
+  </label>
+    <label for="other">
+    <input type="checkbox" name="games" id="other" value="pathfinder">Other
+  </label>
+  </label>
+<label for="comment">Additional Comments</label>
+  <textarea id="comment"></textarea>
+  
+  <input type="submit" id="submit">
+  
+  
+  
+</form>
+
+</body>
+</html>
